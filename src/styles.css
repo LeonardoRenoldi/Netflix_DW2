@@ -1,0 +1,19 @@
+.inputBox {
+  width: 100%;
+}
+.checkBox {
+  margin: 0;
+  padding: 0;
+  height: 13px;
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.main-content {
+  background-color: grey;
+  height: 100vh;
+  width: 100vw;
+}
