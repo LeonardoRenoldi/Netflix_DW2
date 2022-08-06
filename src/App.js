@@ -2,12 +2,12 @@ import "./styles.css";
 
 export default function App() {
   return (
-    <div className="main-content">
-      <div className="loginBody">
-        <div className="loginBox">
+    <div class="main-content">
+      <div class="loginBody">
+        <div class="loginBox">
           <h2>Entrar</h2>
           <form>
-            <div className="inputBox">
+            <div class="inputBox">
               <input
                 type="email"
                 placeholder="Email ou Número de telefone"
@@ -15,19 +15,19 @@ export default function App() {
             </div>
           </form>
 
-          <div className="inputBox">
+          <div class="inputBox">
             <input type="password" placeholder="Senha"></input>
           </div>
 
           <div>
-            <button className="submit">Entrar</button>
+            <button class="submit">Entrar</button>
           </div>
         </div>
 
-        <div className="support">
-          <div className="remember">
+        <div class="support">
+          <div class="remember">
             <span>
-              <input className="checkBox" type="checkbox"></input>
+              <input class="checkBox" type="checkbox"></input>
               <span>Lembre-se de mim</span>
             </span>
           </div>
